@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #D4E3F7;
+    padding-top: 50px;
+}
+
+.main-container{
+    width: 70%;
+    height: 60vh;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.main-box{
+    position: relative;
+}
+
+.main-heading{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: #2ECE2E;
+}
+
+.main-sub-heading{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #2ECE2E;
+    margin-top: 25px;
+}
+
+.main-para{
+    text-align: center;
+    font-size: 25px;
+    color: #2f2f2f;
+    margin-top: 25px;
+    line-height: 35px;
+}
+.call-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.call-now{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.call-button{
+    padding: 15px 50px;
+    background-color: #2ECE2E;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call-para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+
+.banner-box{
+    width: 100%;
+    height: 40vh;
+}
+.banner-box img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #152B75;
+}
+
+.footer-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link-box{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.footer-link-box a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-text{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
